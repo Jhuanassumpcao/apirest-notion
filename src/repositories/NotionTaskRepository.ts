@@ -13,4 +13,7 @@ export class NotionTaskRepository {
     return await notion.pages.update({ page_id: pageId, properties });
   }
 
+  async archiveTask(pageId: string): Promise<any> {
+    return await notion.pages.update({ page_id: pageId, archived: true });
+  }
 }
