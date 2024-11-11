@@ -35,7 +35,7 @@ Este projeto é uma API REST para integração com o Notion.
 
 ## Endpoints
 
-- `GET /api/rows/:id`: Retorna uma linha específica do Notion.
-- `POST /api/rows`: Adiciona uma nova linha no Notion.
-- `PUT /api/rows/:id`: Atualiza uma linha existente no Notion.
-- `DELETE /api/rows/:id`: Remove uma linha do Notion.
+- `GET /api/tasks/:id`: Retorna uma linha específica do Notion.
+- `POST /api/tasks`: Adiciona uma nova linha no Notion.
+- `PUT /api/tasks/:id`: Atualiza uma linha existente no Notion.
+- `DELETE /api/tasks/:id`: Remove uma linha do Notion.
