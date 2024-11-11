@@ -5,8 +5,6 @@ Este projeto é uma API REST para integração com o Notion.
 ## Requisitos
 
 - Node.js
-
-- Node.js
 - npm
 - Crie um arquivo `.env` baseado no `.env.example` com os dados corretos.
 
