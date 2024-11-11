@@ -8,4 +8,9 @@ export class NotionTaskRepository {
     });
     return response.results[0];
   }
+
+  async updateTask(pageId: string, properties: Record<string, any>): Promise<any> {
+    return await notion.pages.update({ page_id: pageId, properties });
+  }
+
 }
