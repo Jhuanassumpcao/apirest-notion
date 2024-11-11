@@ -12,7 +12,7 @@ Este projeto é uma API REST para integração com o Notion.
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seu-usuario/apirest-notion.git
+    git clone https://github.com/Jhuanassumpcao/apirest-notion.git
     ```
 2. Navegue até o diretório do projeto:
     ```sh
