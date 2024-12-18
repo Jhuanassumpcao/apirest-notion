@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "type": "module",
     "description": "",
-    "main": "app.js",
+    "main": "dist/app.js",
     "scripts": {
       "build": "tsc",
-      "start": "node dist/app.js",
+      "start": "tsc && node dist/app.js",
       "dev": "tsc && node dist/app.js"
     },
     "author": "jhuanassumpcao",
